@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.vacation_app_3" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="30" android:targetSdkVersion="30" />
+	<application android:usesCleartextTraffic="true" android:label="Vacation_App_3.Android"></application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>

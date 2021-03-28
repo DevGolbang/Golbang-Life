@@ -1,0 +1,15 @@
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\bin\Debug\netstandard2.0\Vacation_App_3.deps.json
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\bin\Debug\netstandard2.0\Vacation_App_3.dll
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\obj\Debug\netstandard2.0\Vacation_App_3.csprojAssemblyReference.cache
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\obj\Debug\netstandard2.0\Vacation_App_3.AssemblyInfoInputs.cache
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\obj\Debug\netstandard2.0\Vacation_App_3.AssemblyInfo.cs
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\bin\Debug\netstandard2.0\ref\Vacation_App_3.dll
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\bin\Debug\netstandard2.0\Vacation_App_3.pdb
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\obj\Debug\netstandard2.0\TODOAddPage.xaml.g.cs
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\obj\Debug\netstandard2.0\Vacation_App_3.dll
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\obj\Debug\netstandard2.0\ref\Vacation_App_3.dll
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\obj\Debug\netstandard2.0\Vacation_App_3.pdb
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\obj\Debug\netstandard2.0\XamlC.stamp
+D:\DevFile\Vacation_App_3\Vacation_App_3\Vacation_App_3\obj\Debug\netstandard2.0\Vacation_App_3.csproj.CoreCompileInputs.cache

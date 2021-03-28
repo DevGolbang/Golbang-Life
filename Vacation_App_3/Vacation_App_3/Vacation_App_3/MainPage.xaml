@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
+             mc:Ignorable="d"
+           
+             x:Class="Vacation_App_3.MainPage">
+    <AbsoluteLayout BackgroundColor="Accent" HorizontalOptions="Center">
+        <magic:GradientView  WidthRequest="480" HeightRequest="720">
+            <magic:GradientView.GradientSource>
+                <magic:LinearGradient Angle="180">
+                    <magic:GradientStop Color="#D16BA5" Offset="0" />
+                    <magic:GradientStop Color="#86A8E7" Offset="1" />
+                    <magic:GradientStop Color="#5FFBF1" Offset="2" />
+                </magic:LinearGradient>
+            </magic:GradientView.GradientSource>
+        </magic:GradientView>
+        <Label 
+                TranslationX="160"
+                TranslationY="36"
+                TextColor="#FFFFFF"
+                Text="{Binding WeatherData.Response.ContentBody.Itm_list.Items[2].Value}" 
+                FontSize="70"/>
+                <Label
+                 TranslationX="240"
+                 TranslationY="54"
+                TextColor="#FFFFFF"
+                Text="°C" 
+               FontSize="24"/>
+                <Label
+                 TranslationX="160"
+                 TranslationY="110"
+                TextColor="#FFFFFF"
+                Text="{Binding WeatherData.Response.ContentBody.Itm_list.Items[4].Value}" 
+               FontSize="70"/>
+                <Label
+                TranslationX="240"
+                 TranslationY="122"
+                TextColor="#FFFFFF"
+                Text="%" 
+               FontSize="24"/>
+        <Label
+                TextColor="#FFFFFF"
+                Text="코로나" 
+            TranslationX="48"
+                 TranslationY="210"
+               FontSize="24"/>
+
+        <Label
+                TextColor="#FFFFFF"
+                Text="감염자:" 
+            TranslationX="30"
+                 TranslationY="260"
+               FontSize="20"/>
+        <Label
+                TextColor="#FFFFFF"
+                TranslationX="100"
+                 TranslationY="260"
+                Text="{Binding VirusDatas.DefectorCount}" 
+               FontSize="20"/>
+        <Label
+                TextColor="#FFFFFF"
+                 TranslationX="30"
+                TranslationY="300"
+                Text="퇴원자:"
+               FontSize="20"/>
+        <Label
+                TextColor="#FFFFFF"
+                TranslationX="100"
+                TranslationY="300"
+                Text="{Binding VirusDatas.CheckOutCount}"
+               FontSize="20"/>
+        <Label
+                TextColor="#FFFFFF"
+                 TranslationX="30"
+                TranslationY="340"
+                Text="사망자:" 
+               FontSize="20"/>
+        <Label
+                TextColor="#FFFFFF"
+                Text="{Binding VirusDatas.DeadCount}"
+                TranslationX="100"
+                 TranslationY="340"
+               FontSize="20"/>
+        <Label
+                TextColor="#FFFFFF"
+                 TranslationX="190"
+                TranslationY="220"
+                Text="|" 
+               FontSize="120"/>
+        <Label
+                TextColor="#FFFFFF"
+                 TranslationX="260"
+                TranslationY="225"
+                Text="☼" 
+               FontSize="120"/>
+        <ListView x:Name="TODOlistView" Margin="20" ItemSelected="OnListItemSelected" TranslationY="380">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Margin="20,0,0,0" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <Label Text="{Binding Notes}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="#FFFFFF"  FontSize="18"/>
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button 
+            TranslationX="120" 
+            TranslationY="555"
+            Text="수행 기록"
+            FontSize="30"
+            BackgroundColor="Aquamarine"
+            TextColor="#FFFFFF"
+            CornerRadius="30"
+            Clicked="OnItemAdded"
+            />
+    </AbsoluteLayout>
+
+
+</ContentPage>

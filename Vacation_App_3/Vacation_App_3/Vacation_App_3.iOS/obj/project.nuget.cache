@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "iqojOS9HheWKnhFegJXkMNO/vN58vKxsuEwIMqBoag9PaajF9vg+Xlz+ZspmLHDUUNQ8u5xoA6NXMOYn6FuhdA==",
+  "success": true,
+  "projectFilePath": "D:\\DevFile\\Vacation_App_3\\Vacation_App_3\\Vacation_App_3.iOS\\Vacation_App_3.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\송주현\\.nuget\\packages\\htmlagilitypack\\1.11.21\\htmlagilitypack.1.11.21.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\magicgradients\\1.0.0\\magicgradients.1.0.0.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\skiasharp.views\\1.68.0\\skiasharp.views.1.68.0.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\skiasharp.views.forms\\1.68.0\\skiasharp.views.forms.1.68.0.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\sqlitepclraw.provider.sqlite3.ios_unified\\1.1.13\\sqlitepclraw.provider.sqlite3.ios_unified.1.1.13.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\system.net.http\\4.3.2\\system.net.http.4.3.2.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\xamarin.essentials\\1.4.0\\xamarin.essentials.1.4.0.nupkg.sha512",
+    "C:\\Users\\송주현\\.nuget\\packages\\xamarin.forms\\4.4.0.991640\\xamarin.forms.4.4.0.991640.nupkg.sha512"
+  ],
+  "logs": []
+}
